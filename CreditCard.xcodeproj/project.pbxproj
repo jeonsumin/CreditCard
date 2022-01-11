@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		29DB98FE0842739C6AFF0D2C /* Pods_CreditCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7321BAB9286FFDD0D2B3EB /* Pods_CreditCard.framework */; };
+		DE14DCB2278D649400F817C0 /* CreditCardDummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE14DCB1278D649400F817C0 /* CreditCardDummy.swift */; };
 		DE5442CE278C07850004E18B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5442CD278C07850004E18B /* AppDelegate.swift */; };
 		DE5442D0278C07850004E18B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5442CF278C07850004E18B /* SceneDelegate.swift */; };
 		DE5442D5278C07850004E18B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE5442D3278C07850004E18B /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		9A9FE5D15649228284BE42BD /* Pods-CreditCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreditCard.release.xcconfig"; path = "Target Support Files/Pods-CreditCard/Pods-CreditCard.release.xcconfig"; sourceTree = "<group>"; };
 		CF7321BAB9286FFDD0D2B3EB /* Pods_CreditCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CreditCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE14DCB1278D649400F817C0 /* CreditCardDummy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCardDummy.swift; sourceTree = "<group>"; };
 		DE5442CA278C07850004E18B /* CreditCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreditCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE5442CD278C07850004E18B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE5442CF278C07850004E18B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				DE5442EB278C0EC60004E18B /* money.json */,
+				DE14DCB1278D649400F817C0 /* CreditCardDummy.swift */,
 				DE5442CD278C07850004E18B /* AppDelegate.swift */,
 				DE5442CF278C07850004E18B /* SceneDelegate.swift */,
 				DE5442D3278C07850004E18B /* Main.storyboard */,
@@ -231,6 +234,7 @@
 				DE5442EA278C0D6C0004E18B /* CardDetailViewController.swift in Sources */,
 				DE5442E7278C090C0004E18B /* CardListCell.swift in Sources */,
 				DE5442E2278C07CA0004E18B /* CardListViewController.swift in Sources */,
+				DE14DCB2278D649400F817C0 /* CreditCardDummy.swift in Sources */,
 				DE5442CE278C07850004E18B /* AppDelegate.swift in Sources */,
 				DE5442D0278C07850004E18B /* SceneDelegate.swift in Sources */,
 			);
